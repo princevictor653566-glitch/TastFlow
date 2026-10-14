@@ -3,6 +3,7 @@ const navMenu = document.getElementById("navMenu");
 menuToggle.addEventListener("click", function () {
   const isOpen = navMenu.classList.toggle("open");
 
+  
   menuToggle.setAttribute("aria-expanded", isOpen);
   menuToggle.setAttribute(
     "aria-label",

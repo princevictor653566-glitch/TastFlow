@@ -108,7 +108,8 @@ body{
 }
 .google-icon{
     font-weight: bold;
-    color: #4285F4;
+    color: #fbbc05;
+    font-size: 25px;
 }
 .divider{
     text-align: center;
@@ -170,4 +171,4 @@ body{
         padding: 25px 20px;
     }
 }
-}
+

@@ -32,14 +32,14 @@ body{
 .logo-task{
     color: #1e293b;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 .logo-flow{
     color: #2563eb;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 25px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 .auth-box{
@@ -144,12 +144,16 @@ body{
 .auth-switch{
     text-align: center;
     margin-top: 25px;
-    font-size: 15px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
  .auth-switch a{
     text-decoration: none;
     font-weight: bolder;
 } 
+.checkbox{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 @media(max-width:600px){
     .form-row{
         flex-direction: column;
