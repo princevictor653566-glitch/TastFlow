@@ -3,6 +3,7 @@ const navMenu = document.getElementById("navMenu");
 menuToggle.addEventListener("click", function () {
   const isOpen = navMenu.classList.toggle("open");
 
+  
   menuToggle.setAttribute("aria-expanded", isOpen);
   menuToggle.setAttribute(
     "aria-label",
@@ -12,7 +13,6 @@ menuToggle.addEventListener("click", function () {
   menuToggle.textContent = isOpen ? "✕" : "☰";
 });
 
-// Close the menu when a navigation link is clicked
 document.querySelectorAll("#navMenu a").forEach(function (link) {
   link.addEventListener("click", function () {
     navMenu.classList.remove("open");
