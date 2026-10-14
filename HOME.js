@@ -12,7 +12,6 @@ menuToggle.addEventListener("click", function () {
   menuToggle.textContent = isOpen ? "✕" : "☰";
 });
 
-// Close the menu when a navigation link is clicked
 document.querySelectorAll("#navMenu a").forEach(function (link) {
   link.addEventListener("click", function () {
     navMenu.classList.remove("open");

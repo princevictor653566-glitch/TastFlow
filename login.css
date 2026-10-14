@@ -148,6 +148,9 @@ body{
     font-weight: bolder;
     transition: background-color 0.2s;
 }
+.auth-button a {
+    text-decoration: none;
+}
 .auth-switch{
     text-align: center;
     margin-top: 25px;
