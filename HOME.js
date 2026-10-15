@@ -1,7 +1,5 @@
 const menuToggle = document.getElementById("menuToggle");
 const navMenu = document.getElementById("navMenu");
-
-// Open and close the navigation menu
 menuToggle.addEventListener("click", function () {
   const isOpen = navMenu.classList.toggle("open");
 
@@ -25,23 +23,23 @@ document.querySelectorAll("#navMenu a").forEach(function (link) {
 });
 
 // Handle the contact form
-const contactForm = document.getElementById("contactForm");
-const formMessage = document.getElementById("formMessage");
+// const contactForm = document.getElementById("contactForm");
+// const formMessage = document.getElementById("formMessage");
 
-contactForm.addEventListener("submit", function (event) {
-  event.preventDefault();
+// contactForm.addEventListener("submit", function (event) {
+//   event.preventDefault();
 
-  const name = document.getElementById("name").value.trim();
-  const email = document.getElementById("email").value.trim();
-  const message = document.getElementById("message").value.trim();
+//   const name = document.getElementById("name").value.trim();
+//   const email = document.getElementById("email").value.trim();
+//   const message = document.getElementById("message").value.trim();
 
-  if (!name || !email || !message) {
-    formMessage.textContent = "Please fill in all fields.";
-    return;
-  }
+//   if (!name || !email || !message) {
+//     formMessage.textContent = "Please fill in all fields.";
+//     return;
+//   }
 
-  formMessage.textContent =
-    "Thanks, " + name + "! Your form has been checked.";
+//   formMessage.textContent =
+//     "Thanks, " + name + "! Your form has been checked.";
 
-  contactForm.reset();
-});
+//   contactForm.reset();
+// });
