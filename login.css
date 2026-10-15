@@ -167,6 +167,7 @@ body{
 .auth-switch a{
     text-decoration: none;
     font-weight: bolder;
+    background-color: white;
 } 
 @media(max-width:600px){
     .form-row{
