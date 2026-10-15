@@ -137,10 +137,15 @@ body{
     transition: background-color 0.2s;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.auth-button a{
+    text-decoration: none;
+    color: white;
+}
 .auth-switch{
     text-align: center;
     margin-top: 25px;
     font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
  .auth-switch a{
     text-decoration: none;
