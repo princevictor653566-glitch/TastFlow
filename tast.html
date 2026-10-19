@@ -9,6 +9,12 @@
   <title>TaskFlow - Get things done</title>
   <meta name="description" content="Plan your day, set priorities, and track your progress with TaskFlow.">
   <link rel="stylesheet" href="tast.css">
+  <script>
+  const isLoggedIn = localStorage.getItem('isLoggedIn');
+  if (isLoggedIn !== 'true') {
+    window.location.href = 'login.html';
+  }
+</script>
 </head>
 <body>
   <header class="nav" id="siteNav">
